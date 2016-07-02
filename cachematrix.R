@@ -1,8 +1,9 @@
-## Put comments here that give an overall description of what your
-## functions do
+## Two functions to set up an object to calculate a matrix
+## inverse and chace for any future calls to get the result
+
 
 ## This function creates an object that
-##contains a matrix and can cache its inverse.
+##contains a matrix and its inverse
 
 makeCacheMatrix <- function(x = matrix()) {
     inv <- NULL
